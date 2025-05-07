@@ -28,39 +28,43 @@ This repository provides a beginner-friendly, step-by-step guide to creating you
 
 ## ⚙️ Installation and Setup
 
-### **📌 Step 1: Clone the Repository**
-git clone https://github.com/<your-github-username>/gemini-chatbot.git
-cd gemini-chatbot
+#### 📌 Step 1: Clone the Repository
+  git clone https://github.com/<your-github-username>/gemini-chatbot.git
+  cd gemini-chatbot
 
-### **📌 Step 2:  Setup Virtual Environment**
-python -m venv env
+#### 📌 Step 2:  Setup Virtual Environment
+  python -m venv env
 
-# Activate environment:
-# On Windows:
-env\Scripts\activate
+##### Activate environment:
+  On Windows:
+  env\Scripts\activate
+  
+  On macOS/Linux:
+  source env/bin/activate
 
-# On macOS/Linux:
-source env/bin/activate
-
-### **📌 Step 3: Install Dependencies**
+#### 📌 Step 3: Install Dependencies
 pip install google-generativeai
 
-### ** 📌 Step 4: Obtain Google Gemini API Key**
+#### 📌 Step 4: Obtain Google Gemini API Key
 Visit Google AI Studio
 Generate and copy your API key.
 
-### ** 📌 Step 5: Update API Key in Script **
+#### 📌 Step 5: Update API Key in Script 
 Replace "YOUR_API_KEY" in main.py
 
-### ** 📌 Step 6: Run the Chatbot**
+#### 📌 Step 6: Run the Chatbot**
 python main.py
 
-### **🖥️ Example Usage**
+---
+
+## 🖥️ Example Usage
 Ask the Gemini Chatbot anything! (Type 'exit' to stop)
 You: What is AI?
 Gemini: AI, or artificial intelligence, refers to systems...
 
-### ** 🙌 Contribution Guidelines**
+---
+
+## 🙌 Contribution Guidelines
 Want to contribute? You're welcome!
 
 1. Fork this repository.
@@ -69,8 +73,9 @@ Want to contribute? You're welcome!
 4. Push to your branch (git push origin feature/newFeature)
 5. Open a Pull Request.
 
-### **📱 Connect with Me** 
+## 📱 Connect with Me
 YouTube: [Coding with Aman Dhillon](https://www.youtube.com/@AmandeepKaurDhillon)
+
 LinkedIn: [Aman Dhillon](https://www.linkedin.com/in/amandeep-kaur-25a60516b/)
 
 ⭐ Enjoyed the Project? Don't forget to Star ⭐ this repository!
